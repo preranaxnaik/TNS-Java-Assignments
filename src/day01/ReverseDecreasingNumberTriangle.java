@@ -12,7 +12,7 @@ public class ReverseDecreasingNumberTriangle {
                 System.out.print(j + " ");
             }
 
-            System.out.println("Done");
+            System.out.println();
         }
     }
 }
