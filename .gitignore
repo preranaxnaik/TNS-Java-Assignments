@@ -1,0 +1,13 @@
+
+# Eclipse workspace
+.metadata/
+
+# Java compiled files
+**/bin/
+
+# Eclipse settings
+**/.settings/
+
+# OS files
+Thumbs.db
+.DS_Store
