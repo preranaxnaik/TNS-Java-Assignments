@@ -9,17 +9,21 @@ public class StudentDetails {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		
-		System.out.println("-------Please Enter your Details [name, rollno, grade , percenatge]-------");
+		System.out.println("-------Please Enter your Details -------");
+		System.out.print("Enter your fullname : ");
 		String fullName = sc.nextLine();
+		System.out.print("Enter your Roll No : ");
 		int rollNo = sc.nextInt();
+		System.out.print("Enter your Grade : ");
 		char grade = sc.next().charAt(0);
+		System.out.print("Enter your Percentage : ");
 		float percentage = sc.nextFloat();
 		
-		
-		System.out.println(fullName);
-		System.out.println(rollNo);
-		System.out.println(grade);
-		System.out.println(percentage);
+		System.out.println("----------STUDENT DETAILS ----------");
+		System.out.println("Name	   : " + fullName);
+		System.out.println("Roll No	   : " + rollNo);
+		System.out.println("Grade	   : " + grade);
+		System.out.println("Percentage : " + percentage);
 		
 		sc.close();
 	}
